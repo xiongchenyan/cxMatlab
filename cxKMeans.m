@@ -1,6 +1,6 @@
 function cxKMeans(InName,OutName,k)
 %all input will be in string format
-k = int(sym(k));
+k = int(k);
 
 X=csvread(InName);
 fprintf('read data from [%s] done k=%d\n',InName,k);
