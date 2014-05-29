@@ -6,4 +6,6 @@ X=spconvert(X);
 Y=kmeans(X,k);
 csvwrite(OutName,Y);
 
+exit;
+
 
